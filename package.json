@@ -1,8 +1,8 @@
 {
-"scripts": {
-  "build": "npx webpack",
-  "encode": "node ./node_modules/.bin/b64-cli encode dist/*.svg"
-},
+  "scripts": {
+    "build": "npx webpack",
+    "encode": "node ./node_modules/.bin/b64-cli encode dist/*.svg"
+  },
   "devDependencies": {
     "b64-cli": "^1.4.0",
     "fileloader": "^2.0.0",

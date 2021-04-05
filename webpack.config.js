@@ -4,7 +4,7 @@ module.exports = {
   entry: "./vyper",
   output: {
     path: __dirname + "/dist",
-    filename: "vyperlang.js"
+    filename: "vyperlang.js",
   },
   module: {
     rules: [
@@ -12,13 +12,13 @@ module.exports = {
         test: /\.svg$/,
         use: [
           {
-            loader: "file-loader"
+            loader: "file-loader",
           },
           {
             loader: "./index.js",
-          }
-        ]
-      }
-    ]
-  }
-}
+          },
+        ],
+      },
+    ],
+  },
+};
